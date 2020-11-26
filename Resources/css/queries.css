@@ -1,0 +1,73 @@
+@media screen and (max-width: 1200px) {
+ .row {
+     width: 100%;
+     padding: 0 30px;
+    }
+    .close-btn ion-icon {
+        right: 44px;
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .grid-about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .paul {
+        width: 60%;
+    }
+    .gird-process-container,
+    .grid-latest-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-latest-items:nth-child(5) {
+        grid-column: 1/2;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-experience-container,
+    .grid-contact-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .description {
+        width: 100%;
+   }
+    .grid-latest-items img {
+        height: auto;
+    }
+    .grid-latest-container {
+        grid-auto-rows: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html, body {
+        font-size: 8px;
+    }
+    .paul {
+        width: 80%;
+    }
+    
+    .gird-process-container,
+    .grid-latest-container, 
+    .grid-testimonial-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #testimonial{
+        background: #f6f6f6; 
+    }
+    h1 {
+        font-size: 550%;
+    }
+    .hero-text-box span {
+        font-size: 195%;
+    }
+}
